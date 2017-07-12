@@ -6,7 +6,7 @@ A simple script allowing you to connect to UCL's VPN using openconnect instead o
 * Ubuntu: `apt-get install openconnect curl`
 
 ## Usage
-Make sure both files are executable: `chmod +x <files>`
+Make sure both files are executable: `chmod +x <files>`.
 Optionally, create a symlink to `ucl` in a folder that is on your PATH.
 
 Then connect to UCL's VPN simply by running `ucl`.

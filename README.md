@@ -7,7 +7,8 @@ A simple script allowing you to connect to UCL's VPN using openconnect instead o
 
 ## Usage
 Make sure both files are executable: `chmod +x <files>`
-Optionally, symlink ucl to a folder that is on your PATH.
+Optionally, create a symlink to `ucl` in a folder that is on your PATH.
+
 Then connect to UCL's VPN simply by running `ucl`.
 
 ## Credit

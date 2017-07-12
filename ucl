@@ -1,3 +1,4 @@
 #!/bin/sh
-SCRIPTPATH=$( cd $(dirname $0) ; pwd -P )
+SCRIPTPATH=$( dirname $(readlink "$0") )
+set -xe
 sudo openconnect vpn.ucl.ac.uk --csd-wrapper "$SCRIPTPATH/csd-wrapper.sh"

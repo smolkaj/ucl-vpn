@@ -2,7 +2,7 @@
 
 # robustly figure out the real path of this script
 case "$OSTYPE" in
-  darwin*)  SCRIPTPATH=$( dirname $(readlink $0 || echo ".") ) ;;
+  darwin*)  SCRIPTPATH=$( dirname $(readlink $0 || echo "$0") ) ;;
   *)        SCRIPTPATH=$( dirname $(readlink -f $0) ) ;;
 esac
 
